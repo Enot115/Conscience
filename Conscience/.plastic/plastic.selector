@@ -1,0 +1,4 @@
+repository "Conscience 2025-11-22_00-29-47/Conscience@10171430133911@cloud"
+  path "/"
+    br "/main"
+    co "/main"
