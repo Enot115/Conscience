@@ -8,24 +8,18 @@ public class DoorAnimated : MonoBehaviour
     void Awake()
     {
         if (animator == null)
-        {
-            animator = GetComponent<Animator>();
-        }
+            animator = GetComponentInParent<Animator>();
     }
 
     public void OnInteract()
     {
-        if (opened) return;   // если нужно открыть только один раз
+        if (opened) return;  
         opened = true;
+
         if (animator != null)
         {
-            animator.Play("DoorOpen",0,0f);
-            //animator.SetTrigger("Open");
-            Debug.Log("Door: Open triggered" + name);
-        }
-        else
-        {
-            Debug.LogWarning("DoorAnimated: нет Animator на " + name);
+            animator.SetTrigger("Open");
+            Debug.Log("Door: Open trigger on " + name);
         }
     }
 }

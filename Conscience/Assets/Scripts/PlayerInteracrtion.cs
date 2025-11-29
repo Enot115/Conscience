@@ -29,15 +29,24 @@ public class PlayerInteraction : MonoBehaviour
         {
             Debug.Log("RAY HIT: " + hit.collider.name);
 
-            DoorAnimated animDoor = hit.collider.GetComponent<DoorAnimated>();
+            
+            DoorAnimated animDoor = hit.collider.GetComponentInParent<DoorAnimated>();
             if (animDoor != null)
             {
-                Debug.Log("FOUND DoorAnimated на " + hit.collider.name);
+                Debug.Log("FOUND DoorAnimated на " + animDoor.name);
                 animDoor.OnInteract();
                 return;
             }
 
-            Debug.Log("На объекте " + hit.collider.name + " нет DoorAnimated");
+            
+            Door door = hit.collider.GetComponentInParent<Door>();
+            if (door != null)
+            {
+                door.OnInteract();
+                return;
+            }
+
+            Debug.Log("На объекте " + hit.collider.name + " нет DoorAnimated/ Door");
         }
         else
         {
