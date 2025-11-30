@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class DoorAnimated : MonoBehaviour
+public class DoorRightAnimated : MonoBehaviour
 {
     public Animator animator;
 
