@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
+  m_Fog: 1
+  m_FogColor: {r: 0.2000267, g: 0.24205995, b: 0.2735849, a: 1}
+  m_FogMode: 2
+  m_FogDensity: 0.03
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.05660379, g: 0.055802792, b: 0.055802792, a: 1}
@@ -3199,6 +3199,8 @@ GameObject:
   - component: {fileID: 372353576}
   - component: {fileID: 372353575}
   - component: {fileID: 372353574}
+  - component: {fileID: 372353577}
+  - component: {fileID: 372353578}
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: Untagged
@@ -3328,6 +3330,46 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &372353577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372353572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bd4864fdc4123468cc979ac718cbb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: {fileID: 226105215}
+  cam: {fileID: 0}
+  focusMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  defaultDistance: 10
+  smooth: 10
+--- !u!114 &372353578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372353572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d3b44e886191b4e9272ec722a7f0cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 372353573}
+  frequency: 1.7
+  amplitude: 0.04
+  sway: 0.02
+  rotAmplitude: 1.2
+  rotFrequency: 1.5
+  smooth: 10
+  controller: {fileID: 0}
+  minSpeed: 0.1
 --- !u!1 &384995687
 GameObject:
   m_ObjectHideFlags: 0
