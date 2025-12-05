@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\pdidi\\Conscience\\Conscience\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|d:\\pdidi\\conscience\\conscience\\assets\\camerabob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\camerabob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|d:\\pdidi\\conscience\\conscience\\assets\\scripts\\focusdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\focusdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|d:\\pdidi\\conscience\\conscience\\assets\\scripts\\playerfootsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|D:\\pdidi\\Conscience\\Conscience\\assets\\scripts\\playerfootsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerfootsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CameraBob.cs",
+              "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\CameraBob.cs",
+              "RelativeDocumentMoniker": "Assets\\CameraBob.cs",
+              "ToolTip": "D:\\pdidi\\Conscience\\Conscience\\Assets\\CameraBob.cs",
+              "RelativeToolTip": "Assets\\CameraBob.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T12:59:35.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FocusDistance.cs",
               "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FocusDistance.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerFootsteps.cs",
               "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerFootsteps.cs",
@@ -63,12 +80,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerFootsteps.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:46:52.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T12:46:52.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AnomalyWhiteNoise.cs",
               "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnomalyWhiteNoise.cs",
@@ -80,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RandomDrip.cs",
               "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RandomDrip.cs",
@@ -92,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DoorAnimatied.cs",
               "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorAnimatied.cs",
@@ -104,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Doors.cs",
               "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Doors.cs",
@@ -116,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerInteracrtion.cs",
               "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\PlayerInteracrtion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteracrtion.cs",
