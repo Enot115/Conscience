@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\pdidi\\Conscience\\Conscience\\",
+  "WorkspaceRootPath": "C:\\PD\\Conscience\\Conscience\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|d:\\pdidi\\conscience\\conscience\\assets\\scripts\\playerfootsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\playerfootsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerfootsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|d:\\pdidi\\conscience\\conscience\\assets\\scripts\\anomalywhitenoise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\anomalywhitenoise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\anomalywhitenoise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|D:\\pdidi\\Conscience\\Conscience\\assets\\scripts\\randomdrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\randomdrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randomdrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|D:\\pdidi\\Conscience\\Conscience\\assets\\scripts\\playerinteracrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\playerinteracrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteracrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|D:\\pdidi\\Conscience\\Conscience\\assets\\scripts\\dooranimatied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\dooranimatied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dooranimatied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,36 +43,47 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerFootsteps.cs",
-              "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerFootsteps.cs",
-              "ToolTip": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerFootsteps.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\PauseMenu.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\PauseMenu.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:46:52.765Z",
+              "WhenOpened": "2025-12-05T11:12:40.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AnomalyWhiteNoise.cs",
-              "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnomalyWhiteNoise.cs",
-              "ToolTip": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnomalyWhiteNoise.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Title": "PlayerFootsteps.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerFootsteps.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerFootsteps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:36:13.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T12:46:52.765Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AnomalyWhiteNoise.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnomalyWhiteNoise.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnomalyWhiteNoise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:36:13.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RandomDrip.cs",
-              "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RandomDrip.cs",
-              "ToolTip": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
               "RelativeToolTip": "Assets\\Scripts\\RandomDrip.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,11 +91,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DoorAnimatied.cs",
-              "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorAnimatied.cs",
-              "ToolTip": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
               "RelativeToolTip": "Assets\\Scripts\\DoorAnimatied.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,11 +103,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Doors.cs",
-              "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Doors.cs",
-              "ToolTip": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
               "RelativeToolTip": "Assets\\Scripts\\Doors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -100,11 +115,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerInteracrtion.cs",
-              "DocumentMoniker": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\PlayerInteracrtion.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\PlayerInteracrtion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteracrtion.cs",
-              "ToolTip": "D:\\pdidi\\Conscience\\Conscience\\Assets\\Scripts\\PlayerInteracrtion.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\PlayerInteracrtion.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerInteracrtion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
