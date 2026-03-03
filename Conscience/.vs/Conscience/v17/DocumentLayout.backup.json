@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\PD\\Conscience\\Conscience\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\camerabob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\camerabob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\camerabob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\PauseMenu.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\PauseMenu.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwCsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T20:36:34.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\MainMenu.cs",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CameraBob.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\CameraBob.cs",
               "RelativeDocumentMoniker": "Assets\\CameraBob.cs",
@@ -71,12 +88,11 @@
               "RelativeToolTip": "Assets\\CameraBob.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAgwEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T12:59:35.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T12:59:35.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FocusDistance.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FocusDistance.cs",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerFootsteps.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerFootsteps.cs",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AnomalyWhiteNoise.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnomalyWhiteNoise.cs",
@@ -112,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RandomDrip.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RandomDrip.cs",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DoorAnimatied.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorAnimatied.cs",
@@ -136,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Doors.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Doors.cs",
@@ -148,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PlayerInteracrtion.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\PlayerInteracrtion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteracrtion.cs",
@@ -157,6 +173,20 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T15:37:59.307Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 264,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
