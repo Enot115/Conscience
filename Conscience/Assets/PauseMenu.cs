@@ -7,39 +7,53 @@ public class PauseMenu : MonoBehaviour
     public bool PauseGame;
     public GameObject pauseGameMenu;
 
-    // Update is called once per frame
+    void Start()
+    {
+        // ”беждаемс€, что при запуске игры курсор скрыт
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        // ћеню паузы можно открыть по Escape, но закрыть только через кнопку в меню
+        if (Input.GetKeyDown(KeyCode.Escape) && !PauseGame)
         {
-            if (PauseGame)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
+            Pause();
         }
     }
 
     public void Resume()
-    { 
+    {
         pauseGameMenu.SetActive(false);
         Time.timeScale = 1f;
         PauseGame = false;
+
+        // —крываем курсор при возобновлении игры
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void Pause()
     {
         pauseGameMenu.SetActive(true);
         Time.timeScale = 0f;
-        PauseGame = true; 
+        PauseGame = true;
+
+        // ѕоказываем курсор при открытии меню паузы
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void LoadMenu()
-    { 
+    {
         Time.timeScale = 1f;
+
+        // ѕоказываем курсор перед загрузкой главного меню
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         SceneManager.LoadScene("Main Menu");
     }
+
 }
