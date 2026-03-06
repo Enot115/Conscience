@@ -3546,6 +3546,7 @@ GameObject:
   - component: {fileID: 372353577}
   - component: {fileID: 372353578}
   - component: {fileID: 372353579}
+  - component: {fileID: 372353580}
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: Untagged
@@ -3734,6 +3735,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   interactKey: 101
+--- !u!114 &372353580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372353572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34931b9c50c32094391c92793513ac7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &384995687
 GameObject:
   m_ObjectHideFlags: 0
@@ -10929,6 +10942,7 @@ GameObject:
   - component: {fileID: 1270926394}
   - component: {fileID: 1270926396}
   - component: {fileID: 1270926395}
+  - component: {fileID: 1270926397}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -11124,6 +11138,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1270926397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270926390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c730859362cc5304c9e4b05b3a60691e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1270926391}
+  gameAudioSources: []
 --- !u!1001 &1272246207
 PrefabInstance:
   m_ObjectHideFlags: 0

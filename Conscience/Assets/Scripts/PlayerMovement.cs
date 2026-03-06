@@ -1,10 +1,13 @@
-using UnityEngine;
+п»їusing UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Movement Settings")]
     public float moveSpeed = 4f;
-    public float mouseSensitivity = 150f;
+
+    [Header("Sensitivity Settings")]
+    public float mouseSensitivity = 1f; // РР·РјРµРЅРµРЅРѕ СЃ 150f РЅР° 1f РґР»СЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ СЃР»Р°Р№РґРµСЂСѓ
 
     private CharacterController controller;
     private Transform cam;
@@ -13,43 +16,55 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-
-        // Ищем камеру внутри игрока
         cam = GetComponentInChildren<Camera>().transform;
 
-        // Прячем курсор в центре
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        // Р—Р°РіСЂСѓР¶Р°РµРј РЅР°СЃС‚СЂРѕР№РєРё С‡СѓРІСЃС‚РІРёС‚РµР»СЊРЅРѕСЃС‚Рё РїСЂРё СЃС‚Р°СЂС‚Рµ
+        LoadSensitivity();
+    }
+
+    void LoadSensitivity()
+    {
+        if (PlayerPrefs.HasKey("Sensitivity"))
+        {
+            mouseSensitivity = PlayerPrefs.GetFloat("Sensitivity", 1f);
+            Debug.Log($"вњ… PlayerMovement: Р—Р°РіСЂСѓР¶РµРЅР° С‡СѓРІСЃС‚РІРёС‚РµР»СЊРЅРѕСЃС‚СЊ {mouseSensitivity}");
+        }
     }
 
     void Update()
     {
-        // --- ДВИЖЕНИЕ ---
-
-        float h = Input.GetAxis("Horizontal");  // A / D
-        float v = Input.GetAxis("Vertical");    // W / S
+        // --- Р”Р’РР–Р•РќРР• ---
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * h + transform.forward * v;
         controller.SimpleMove(move * moveSpeed);
 
-        // --- ПОВОРОТ МЫШЬЮ ---
+        // --- РџРћР’РћР РћРў РњР«РЁР¬Р® ---
+        // РСЃРїРѕР»СЊР·СѓРµРј mouseSensitivity РЅР°РїСЂСЏРјСѓСЋ (С‚РµРїРµСЂСЊ СЌС‚Рѕ РјРЅРѕР¶РёС‚РµР»СЊ РѕС‚ 0 РґРѕ 2)
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * 100f * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * 100f * Time.deltaTime;
 
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
-
-        // вращаем тело по горизонтали
         transform.Rotate(Vector3.up * mouseX);
 
-        // вращаем камеру по вертикали
         rotationX -= mouseY;
         rotationX = Mathf.Clamp(rotationX, -80f, 80f);
         cam.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
 
-        // По Esc можно разблокировать курсор (по желанию)
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
+    }
+
+    // РџСѓР±Р»РёС‡РЅС‹Р№ РјРµС‚РѕРґ РґР»СЏ РѕР±РЅРѕРІР»РµРЅРёСЏ С‡СѓРІСЃС‚РІРёС‚РµР»СЊРЅРѕСЃС‚Рё РёР·РІРЅРµ
+    public void UpdateSensitivity(float newSensitivity)
+    {
+        mouseSensitivity = newSensitivity;
+        Debug.Log($"рџ”„ PlayerMovement: Р§СѓРІСЃС‚РІРёС‚РµР»СЊРЅРѕСЃС‚СЊ РѕР±РЅРѕРІР»РµРЅР° РґРѕ {newSensitivity}");
     }
 }
