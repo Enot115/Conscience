@@ -15,6 +15,7 @@ public class ScreamerTrigger : MonoBehaviour
     [SerializeField] private bool useDebugLog = true;
 
     private bool triggered = false;
+    private Color originalColor;
 
     private void Start()
     {
@@ -25,9 +26,13 @@ public class ScreamerTrigger : MonoBehaviour
         }
         else
         {
-            Debug.Log($"Image найден: {screamerImage.name}, начальная альфа: {screamerImage.color.a}");
-            screamerImage.gameObject.SetActive(true); // Включаем
-            screamerImage.color = new Color(1, 1, 1, 0); // Делаем прозрачным
+            Debug.Log($"Image найден: {screamerImage.name}");
+
+            // !!! ВАЖНО: НЕ включаем принудительно, а сохраняем текущее состояние
+            originalColor = screamerImage.color;
+
+            // Убеждаемся, что изображение не блокирует нажатия
+            screamerImage.raycastTarget = false;
         }
 
         if (screamerSound == null)
@@ -95,12 +100,11 @@ public class ScreamerTrigger : MonoBehaviour
         {
             Debug.Log("ПОКАЗЫВАЮ СКРИМЕР!");
 
-            // Простой способ - меняем цвет
-            screamerImage.color = Color.white;
+            // Временно отключаем raycastTarget, чтобы не блокировать кнопки
+            screamerImage.raycastTarget = false;
 
-            // Если не работает, пробуем включить/выключить объект
-            screamerImage.gameObject.SetActive(false);
-            screamerImage.gameObject.SetActive(true);
+            // Показываем изображение
+            screamerImage.color = Color.white;
 
             // Запускаем таймер на скрытие
             StartCoroutine(HideAfterDelay());
@@ -125,6 +129,8 @@ public class ScreamerTrigger : MonoBehaviour
         {
             Debug.Log("Скрываю скример");
             screamerImage.color = new Color(1, 1, 1, 0);
+            // Возвращаем оригинальный цвет
+            screamerImage.color = originalColor;
         }
     }
 
