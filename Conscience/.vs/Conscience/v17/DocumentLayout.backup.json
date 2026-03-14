@@ -99,7 +99,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\LoadScreen.cs",
               "ToolTip": "C:\\Users\\akimm\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\LoadScreen.cs",
               "RelativeToolTip": "Assets\\Scripts\\LoadScreen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T18:07:56.734Z",
               "EditorCaption": ""
@@ -114,8 +114,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAADwvxUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T22:35:24.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T22:35:24.108Z"
             },
             {
               "$type": "Document",
