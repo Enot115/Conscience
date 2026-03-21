@@ -184,8 +184,8 @@ Material:
     m_Colors:
     - _AlbedoColorTint: {r: 1, g: 1, b: 1, a: 1}
     - _AlbedoColorVertexTint: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
+    - _Color: {r: 0.51886785, g: 0.51886785, b: 0.51886785, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColorMulti: {r: 1, g: 1, b: 1, a: 1}
     - _NormalMulti: {r: 1, g: 1, b: 1, a: 1}
