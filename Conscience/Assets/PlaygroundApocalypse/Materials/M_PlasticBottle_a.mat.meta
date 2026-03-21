@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abc00000000011940766797620640246
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352674
+  packageName: 'Apocalypse: Playground Environment'
+  packageVersion: 1.0
+  assetPath: Assets/PlaygroundApocalypse/Materials/M_PlasticBottle_a.mat
+  uploadId: 858066
