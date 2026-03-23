@@ -4,14 +4,22 @@
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public float moveSpeed = 4f;
+    public float walkSpeed = 4f;
+    public float runSpeed = 7f;
+    public float jumpHeight = 1.2f;
+    public float gravity = -9.81f;
 
     [Header("Sensitivity Settings")]
-    public float mouseSensitivity = 1f; // Изменено с 150f на 1f для соответствия слайдеру
+    public float mouseSensitivity = 1f;
 
     private CharacterController controller;
     private Transform cam;
     private float rotationX = 0f;
+    private Vector3 velocity;
+    private bool isGrounded;
+
+    // Для определения бега
+    private bool isRunning = false;
 
     void Start()
     {
@@ -21,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        // Загружаем настройки чувствительности при старте
         LoadSensitivity();
     }
 
@@ -36,15 +43,40 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // --- ДВИЖЕНИЕ ---
+        // --- ПРОВЕРКА НА ЗЕМЛЕ ---
+        isGrounded = controller.isGrounded;
+
+        // Сбрасываем вертикальную скорость если на земле
+        if (isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f; // Небольшое отрицательное значение для лучшего прилипания к земле
+        }
+
+        // --- ДВИЖЕНИЕ И БЕГ ---
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
+        // Проверка бега (зажатый Shift)
+        isRunning = Input.GetKey(KeyCode.LeftShift) && v > 0;
+        float currentSpeed = isRunning ? runSpeed : walkSpeed;
+
         Vector3 move = transform.right * h + transform.forward * v;
-        controller.SimpleMove(move * moveSpeed);
+        move.Normalize(); // Нормализуем для диагонального движения с той же скоростью
+
+        // Перемещение с учетом скорости бега
+        controller.Move(move * currentSpeed * Time.deltaTime);
+
+        // --- ПРЫЖОК ---
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
+
+        // --- ГРАВИТАЦИЯ ---
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
 
         // --- ПОВОРОТ МЫШЬЮ ---
-        // Используем mouseSensitivity напрямую (теперь это множитель от 0 до 2)
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * 100f * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * 100f * Time.deltaTime;
 
@@ -54,10 +86,18 @@ public class PlayerMovement : MonoBehaviour
         rotationX = Mathf.Clamp(rotationX, -80f, 80f);
         cam.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
 
+        // --- КУРСОР ---
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+        }
+
+        // Нажмите левый Alt для возврата курсора в игру (опционально)
+        if (Input.GetMouseButtonDown(0) && Cursor.lockState == CursorLockMode.None)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
     }
 
@@ -66,5 +106,11 @@ public class PlayerMovement : MonoBehaviour
     {
         mouseSensitivity = newSensitivity;
         Debug.Log($"🔄 PlayerMovement: Чувствительность обновлена до {newSensitivity}");
+    }
+
+    // Геттер для проверки бега (можно использовать в CameraBob и Footsteps)
+    public bool IsRunning()
+    {
+        return isRunning;
     }
 }
