@@ -9,6 +9,13 @@ public class PlayerInteraction : MonoBehaviour
 
     void Update()
     {
+        // Проверка на паузу
+        PauseMenu pauseMenu = FindObjectOfType<PauseMenu>();
+        if (pauseMenu != null && pauseMenu.IsPaused)
+        {
+            return;
+        }
+
         if (Input.GetKeyDown(interactKey))
         {
             TryInteract();

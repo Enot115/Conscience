@@ -43,6 +43,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // Проверка на паузу - если игра на паузе, не обрабатываем движение
+        PauseMenu pauseMenu = FindObjectOfType<PauseMenu>();
+        if (pauseMenu != null && pauseMenu.IsPaused)
+        {
+            return; // Выходим из Update, если игра на паузе
+        }
+
         // --- ПРОВЕРКА НА ЗЕМЛЕ ---
         isGrounded = controller.isGrounded;
 
@@ -86,13 +93,7 @@ public class PlayerMovement : MonoBehaviour
         rotationX = Mathf.Clamp(rotationX, -80f, 80f);
         cam.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
 
-        // --- КУРСОР ---
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        }
-
+        
         // Нажмите левый Alt для возврата курсора в игру (опционально)
         if (Input.GetMouseButtonDown(0) && Cursor.lockState == CursorLockMode.None)
         {
