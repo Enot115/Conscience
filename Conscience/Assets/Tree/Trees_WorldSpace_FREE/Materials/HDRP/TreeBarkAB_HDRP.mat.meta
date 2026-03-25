@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f4ba0456ff5d504ba88c52a77c78107
+timeCreated: 1480089212
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117088
+  packageName: World Space Trees (FREE) - Shader
+  packageVersion: 1.23
+  assetPath: Assets/Trees_WorldSpace_FREE/Materials/HDRP/TreeBarkAB_HDRP.mat
+  uploadId: 393715

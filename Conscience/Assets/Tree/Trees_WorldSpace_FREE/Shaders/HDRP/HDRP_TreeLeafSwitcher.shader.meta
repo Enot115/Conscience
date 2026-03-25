@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 46c512628cf462e4ea6760fcdc89f889
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117088
+  packageName: World Space Trees (FREE) - Shader
+  packageVersion: 1.23
+  assetPath: Assets/Trees_WorldSpace_FREE/Shaders/HDRP/HDRP_TreeLeafSwitcher.shader
+  uploadId: 393715

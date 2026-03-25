@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c739edd8d8509ea41a8086ad3451fd97
+timeCreated: 1524260890
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117088
+  packageName: World Space Trees (FREE) - Shader
+  packageVersion: 1.23
+  assetPath: Assets/Trees_WorldSpace_FREE/Materials/SRP/Grass.mat
+  uploadId: 393715
