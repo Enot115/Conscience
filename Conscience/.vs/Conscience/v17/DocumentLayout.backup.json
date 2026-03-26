@@ -1,118 +1,99 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\",
+  "WorkspaceRootPath": "C:\\PD\\Conscience\\Conscience\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\documents\\github\\conscience\\conscience\\assets\\scripts\\level1\\pincodebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level1\\pincodebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\\documents\\github\\conscience\\conscience\\assets\\scripts\\level1\\pincodesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level1\\pincodesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\assets\\scripts\\level1\\playerinteracrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level1\\playerinteracrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\assets\\scripts\\level1\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level1\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level1\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\assets\\scripts\\level1\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level1\\playerinteracrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level1\\playerinteracrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level1\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level1\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PD\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PD\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\assets\\scripts\\level2\\firstpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level2\\firstpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\firstpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Settings\\MainMenuSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Settings\\MainMenuSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Settings\\MainMenuSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MouseTester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MouseTester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MouseTester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\CameraBob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CameraBob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\CameraBob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MenuMusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MenuMusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MenuMusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\LoadScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LoadScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\LoadScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\ScreamerTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ScreamerTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\ScreamerTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerSettingsLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerSettingsLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerSettingsLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CameraShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CameraShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyFinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AnomalyFinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyFinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CrosshairGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CrosshairGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CrosshairGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FocusDistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerFootsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AnomalyWhiteNoise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RandomDrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DoorAnimatied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,45 +103,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PinCodeTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeTrigger.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeTrigger.cs",
+              "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeTrigger.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeTrigger.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T20:15:04.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 28,
               "Title": "PinCodeButton.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PinCodeButton.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeButton.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeButton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\level1\\PinCodeButton.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T20:14:38.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T20:14:38.354Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PinCodeSystem.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PinCodeSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeSystem.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\level1\\PinCodeSystem.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeSystem.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T20:13:37.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T20:13:37.002Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PlayerInteracrtion.cs",
-              "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerInteracrtion.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerInteracrtion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PlayerInteracrtion.cs",
-              "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerInteracrtion.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerInteracrtion.cs",
               "RelativeToolTip": "Assets\\Scripts\\level1\\PlayerInteracrtion.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -168,11 +154,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PauseMenu.cs",
-              "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenu.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PauseMenu.cs",
-              "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenu.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\level1\\PauseMenu.cs",
               "ViewState": "AgIAAJEAAAAAAAAAAAAgwJ8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -180,146 +166,142 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerMovement.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerMovement.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\level1\\PlayerMovement.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAgwFsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAuwFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T20:59:10.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TerrainLit.shader",
-              "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
-              "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-03-22T15:10:28.43Z",
+              "WhenOpened": "2026-03-23T20:59:10.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
+              "Title": "TerrainLit.shader",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-03-22T15:10:28.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MenuMusic.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MenuMusic.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuMusic.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MenuMusic.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MenuMusic.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuMusic.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MenuMusic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T21:27:40.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "LoadScreen.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\LoadScreen.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadScreen.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\LoadScreen.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\LoadScreen.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LoadScreen.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\LoadScreen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T18:07:56.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PauseMenu.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PauseMenu.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAADwvxUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T22:35:24.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T22:35:24.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "ScreamerTrigger.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\ScreamerTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScreamerTrigger.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\ScreamerTrigger.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\ScreamerTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScreamerTrigger.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\ScreamerTrigger.cs",
               "ViewState": "AgIAAH8AAAAAAAAAAAAUwIkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T14:21:07.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "MainMenuSettings.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Settings\\MainMenuSettings.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Settings\\MainMenuSettings.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Settings\\MainMenuSettings.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Settings\\MainMenuSettings.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Settings\\MainMenuSettings.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Settings\\MainMenuSettings.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T19:23:32.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T19:23:32.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "MouseTester.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MouseTester.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseTester.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MouseTester.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MouseTester.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MouseTester.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MouseTester.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T19:58:51.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T19:58:51.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T19:37:57.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "PlayerSettingsLoader.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerSettingsLoader.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSettingsLoader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerSettingsLoader.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerSettingsLoader.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerSettingsLoader.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerSettingsLoader.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAcwFEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T19:26:14.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-03-03T21:17:26.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T21:17:26.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "FirstPersonMovement.cs",
-              "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level2\\FirstPersonMovement.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\FirstPersonMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\FirstPersonMovement.cs",
-              "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level2\\FirstPersonMovement.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\FirstPersonMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\level2\\FirstPersonMovement.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAswH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -327,150 +309,157 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "CameraShake.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CameraShake.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraShake.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CameraShake.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CameraShake.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraShake.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CameraShake.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T14:23:04.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "AnomalyFinder.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyFinder.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnomalyFinder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyFinder.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyFinder.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnomalyFinder.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyFinder.cs",
               "ViewState": "AgIAAIYAAAAAAAAAAAAUwI4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T12:56:47.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "CrosshairGUI.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CrosshairGUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CrosshairGUI.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CrosshairGUI.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CrosshairGUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CrosshairGUI.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CrosshairGUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T19:35:36.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\PauseMenu.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\PauseMenu.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\PauseMenu.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAqwCsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T20:36:34.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T20:36:34.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\MainMenu.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\MainMenu.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:55:38.803Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T15:55:38.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "CameraBob.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\CameraBob.cs",
-              "RelativeDocumentMoniker": "Assets\\CameraBob.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\CameraBob.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\CameraBob.cs",
-              "RelativeToolTip": "Assets\\CameraBob.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\CameraBob.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T12:59:35.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T12:59:35.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "FocusDistance.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FocusDistance.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FocusDistance.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T12:46:32.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "PlayerFootsteps.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerFootsteps.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerFootsteps.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T12:46:52.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "AnomalyWhiteNoise.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnomalyWhiteNoise.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnomalyWhiteNoise.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T12:36:13.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "RandomDrip.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomDrip.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RandomDrip.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T12:30:44.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "DoorAnimatied.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorAnimatied.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DoorAnimatied.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T16:08:02.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "Doors.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Doors.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
               "ToolTip": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Doors.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T15:43:16.225Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 264,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

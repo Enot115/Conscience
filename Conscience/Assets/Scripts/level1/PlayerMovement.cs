@@ -93,7 +93,7 @@ public class PlayerMovement : MonoBehaviour
         rotationX = Mathf.Clamp(rotationX, -80f, 80f);
         cam.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
 
-        
+
         // Нажмите левый Alt для возврата курсора в игру (опционально)
         if (Input.GetMouseButtonDown(0) && Cursor.lockState == CursorLockMode.None)
         {
