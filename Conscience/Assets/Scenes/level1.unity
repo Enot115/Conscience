@@ -5351,6 +5351,7 @@ GameObject:
   - component: {fileID: 512532664}
   - component: {fileID: 512532666}
   - component: {fileID: 512532665}
+  - component: {fileID: 512532667}
   m_Layer: 5
   m_Name: PinCodeCanvas
   m_TagString: Untagged
@@ -5485,6 +5486,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &512532667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512532659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205aafed65fb511478ffe0aecf53634e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hintObject: {fileID: 1441768410}
+  activationDistance: 0.7
+  interactKey: 101
+  pinCodeSystem: {fileID: 512532665}
 --- !u!1001 &514113602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18898,7 +18915,7 @@ GameObject:
   - component: {fileID: 1659951050}
   - component: {fileID: 1659951051}
   m_Layer: 0
-  m_Name: Trigger
+  m_Name: ScreamerTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
