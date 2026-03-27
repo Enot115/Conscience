@@ -19,18 +19,22 @@ public class LevelManager : MonoBehaviour
     [Header("Состояния окружения")]
     public GameObject state0Normal;
     public GameObject state1Anomaly;
+    public GameObject state2Anomaly;
 
     [Header("Логика")]
     public int currentLevel = 0;
     public bool anomalyFound = false;
     private bool isTransitioning = false;
 
+    [Header("Челик")]
+    public GameObject chelik;
     // Список для хранения имен найденных аномалий
     private List<string> foundAnomaliesNames = new List<string>();
 
     private void Start()
     {
         ShowCurrentState();
+        chelik.SetActive(true);
         UpdateAnomalyUI();
     }
 
@@ -78,27 +82,34 @@ public class LevelManager : MonoBehaviour
         isTransitioning = true;
         yield return StartCoroutine(Fade(1f));
 
-        // Логика перехода
         if (currentLevel == 0)
         {
+            // После первого обычного вагона идём к 1 аномалии
             currentLevel = 1;
         }
-        else
+        else if (currentLevel == 1)
         {
-            // Если нашли аномалию, сбрасываем флаг для следующего круга
             if (anomalyFound)
             {
-                Debug.Log("Переход в следующий вагон...");
+                Debug.Log("Первая аномалия найдена, переходим ко второй.");
+                anomalyFound = false;
+                currentLevel = 2;
+            }
+        }
+        else if (currentLevel == 2)
+        {
+            if (anomalyFound)
+            {
+                Debug.Log("Вторая аномалия найдена. Тут можно делать победу или следующий уровень.");
                 anomalyFound = false;
 
-                // Тут можно либо оставить 1 (для теста), либо сделать рандом:
-                // currentLevel = Random.Range(0, 2); 
+                // Пока оставим 2, если дальше уровня нет
+                currentLevel = 2;
             }
         }
 
         ShowCurrentState();
 
-        // Телепорт
         CharacterController cc = player.GetComponent<CharacterController>();
         if (cc != null) cc.enabled = false;
         player.transform.position = startPoint.position;
@@ -114,14 +125,28 @@ public class LevelManager : MonoBehaviour
     {
         if (state0Normal != null) state0Normal.SetActive(false);
         if (state1Anomaly != null) state1Anomaly.SetActive(false);
+        if (state2Anomaly != null)
+        {
+            state2Anomaly.SetActive(false);
+            chelik.SetActive(false);
+        }
 
         switch (currentLevel)
         {
             case 0:
                 if (state0Normal != null) state0Normal.SetActive(true);
                 break;
+
             case 1:
-                if (state1Anomaly != null) state1Anomaly.SetActive(true);
+                if (state1Anomaly != null)
+                {
+                    state1Anomaly.SetActive(true);
+                    chelik.SetActive(true);
+                }
+                break;
+
+            case 2:
+                if (state2Anomaly != null) state2Anomaly.SetActive(true);
                 break;
         }
     }
