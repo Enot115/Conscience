@@ -134,7 +134,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PlayerFootsteps.cs",
               "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerFootsteps.cs",
               "RelativeToolTip": "Assets\\Scripts\\level1\\PlayerFootsteps.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwGEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwFwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T08:32:49.209Z",
               "EditorCaption": ""
@@ -268,8 +268,7 @@
               "RelativeToolTip": "Assets\\Scripts\\level1\\PlayerMovement.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAmwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T20:59:10.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T20:59:10.178Z"
             },
             {
               "$type": "Document",
