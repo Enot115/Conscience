@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level3\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|f:\\githubproj\\conscience\\conscience\\assets\\scripts\\level3\\breatheman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|F:\\GitHubProj\\Conscience\\Conscience\\assets\\scripts\\level3\\breatheman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level3\\breatheman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -129,7 +129,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\level3\\LevelManager.cs",
               "ToolTip": "F:\\GitHubProj\\Conscience\\Conscience\\Assets\\Scripts\\level3\\LevelManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\level3\\LevelManager.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAA1wIwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T14:36:52.21Z",
               "EditorCaption": ""
@@ -144,8 +144,7 @@
               "RelativeToolTip": "Assets\\Scripts\\level3\\breatheMan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T20:08:59.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T20:08:59.608Z"
             },
             {
               "$type": "Document",
