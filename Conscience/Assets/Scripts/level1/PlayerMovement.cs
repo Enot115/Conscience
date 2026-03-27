@@ -4,10 +4,10 @@
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public float walkSpeed = 4f;
-    public float runSpeed = 7f;
+    public float walkSpeed = 5f;
+    public float runSpeed = 8f;
     public float jumpHeight = 1.2f;
-    public float gravity = -9.81f;
+    public float gravity = -19.62f; // Увеличил гравитацию для более "четкого" приземления
 
     [Header("Sensitivity Settings")]
     public float mouseSensitivity = 1f;
@@ -17,13 +17,12 @@ public class PlayerMovement : MonoBehaviour
     private float rotationX = 0f;
     private Vector3 velocity;
     private bool isGrounded;
-
-    // Для определения бега
     private bool isRunning = false;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        // Ищем камеру в дочерних объектах
         cam = GetComponentInChildren<Camera>().transform;
 
         Cursor.lockState = CursorLockMode.Locked;
@@ -37,53 +36,55 @@ public class PlayerMovement : MonoBehaviour
         if (PlayerPrefs.HasKey("Sensitivity"))
         {
             mouseSensitivity = PlayerPrefs.GetFloat("Sensitivity", 1f);
-            Debug.Log($"✅ PlayerMovement: Загружена чувствительность {mouseSensitivity}");
         }
     }
 
     void Update()
     {
-        // Проверка на паузу - если игра на паузе, не обрабатываем движение
+        // 1. Проверка паузы
         PauseMenu pauseMenu = FindObjectOfType<PauseMenu>();
-        if (pauseMenu != null && pauseMenu.IsPaused)
-        {
-            return; // Выходим из Update, если игра на паузе
-        }
+        if (pauseMenu != null && pauseMenu.IsPaused) return;
 
-        // --- ПРОВЕРКА НА ЗЕМЛЕ ---
+        // 2. Проверка земли
         isGrounded = controller.isGrounded;
-
-        // Сбрасываем вертикальную скорость если на земле
         if (isGrounded && velocity.y < 0)
         {
-            velocity.y = -2f; // Небольшое отрицательное значение для лучшего прилипания к земле
+            velocity.y = -2f;
         }
 
-        // --- ДВИЖЕНИЕ И БЕГ ---
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        // 3. ВВОД ДАННЫХ (Используем GetAxisRaw для мгновенной остановки)
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
 
-        // Проверка бега (зажатый Shift)
         isRunning = Input.GetKey(KeyCode.LeftShift) && v > 0;
         float currentSpeed = isRunning ? runSpeed : walkSpeed;
 
+        // Направление движения
         Vector3 move = transform.right * h + transform.forward * v;
-        move.Normalize(); // Нормализуем для диагонального движения с той же скоростью
 
-        // Перемещение с учетом скорости бега
-        controller.Move(move * currentSpeed * Time.deltaTime);
+        // Нормализуем только если есть ввод, чтобы избежать ошибок и лишних расчетов
+        if (move.sqrMagnitude > 0.01f)
+        {
+            move.Normalize();
+            controller.Move(move * currentSpeed * Time.deltaTime);
+        }
 
-        // --- ПРЫЖОК ---
+        // 4. ПРЫЖОК
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
-        // --- ГРАВИТАЦИЯ ---
+        // 5. ГРАВИТАЦИЯ
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        // --- ПОВОРОТ МЫШЬЮ ---
+        // 6. ПОВОРОТ МЫШЬЮ
+        RotatePlayer();
+    }
+
+    void RotatePlayer()
+    {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * 100f * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * 100f * Time.deltaTime;
 
@@ -92,26 +93,12 @@ public class PlayerMovement : MonoBehaviour
         rotationX -= mouseY;
         rotationX = Mathf.Clamp(rotationX, -80f, 80f);
         cam.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
-
-
-        // Нажмите левый Alt для возврата курсора в игру (опционально)
-        if (Input.GetMouseButtonDown(0) && Cursor.lockState == CursorLockMode.None)
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
     }
 
-    // Публичный метод для обновления чувствительности извне
     public void UpdateSensitivity(float newSensitivity)
     {
         mouseSensitivity = newSensitivity;
-        Debug.Log($"🔄 PlayerMovement: Чувствительность обновлена до {newSensitivity}");
     }
 
-    // Геттер для проверки бега (можно использовать в CameraBob и Footsteps)
-    public bool IsRunning()
-    {
-        return isRunning;
-    }
+    public bool IsRunning() => isRunning;
 }
