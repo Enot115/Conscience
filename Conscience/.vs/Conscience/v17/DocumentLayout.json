@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PD\\Conscience\\Conscience\\",
+  "WorkspaceRootPath": "D:\\pdidi\\Conscience\\Conscience\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\scripts\\level2\\nextlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -534,7 +534,8 @@
               "RelativeToolTip": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T12:46:32.097Z"
+              "WhenOpened": "2025-12-05T12:46:32.097Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
