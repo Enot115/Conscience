@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\PD\\Conscience\\Conscience\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level2\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\scripts\\level2\\countermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level2\\countermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\countermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\scripts\\level2\\playerinteraction2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\scripts\\level2\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level2\\playerinteraction2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\playerinteraction2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -135,7 +135,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -147,25 +147,24 @@
               "RelativeToolTip": "Assets\\Scripts\\level2\\PlayerInteraction2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:44:57.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T16:44:57.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CounterManager.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\CounterManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\CounterManager.cs",
               "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\CounterManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\level2\\CounterManager.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAcwDkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T16:44:09.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InteractableObject.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\InteractableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\InteractableObject.cs",
@@ -317,8 +316,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-03-22T15:10:28.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:10:28.43Z"
             },
             {
               "$type": "Document",
@@ -424,8 +422,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-03-03T21:17:26.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T21:17:26.661Z"
             },
             {
               "$type": "Document",
