@@ -1,60 +1,73 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using System.Collections.Generic; // Нужно для работы со списками
-using TMPro; // Нужно для текста
+using System.Collections.Generic; // Для работы со списками ламп и имен
+using TMPro; // Для работы с текстом списка аномалий
 
 public class LevelManager : MonoBehaviour
 {
     [Header("Настройки телепорта")]
-    public Transform startPoint;
-    public GameObject player;
+    public Transform startPoint;      // Точка появления в начале вагона
+    public GameObject player;         // Объект игрока
 
     [Header("Настройки интерфейса")]
-    public CanvasGroup fadeGroup;
-    public TextMeshProUGUI anomalyListText; // Ссылка на твой текст сбоку
-    public float fadeDuration = 1.0f;
-    public float darkPause = 0.5f;
+    public CanvasGroup fadeGroup;     // Черный экран для затухания
+    public TextMeshProUGUI anomalyListText; // Текст списка найденного
+    public GameObject hintObject;     // Текст-подсказка "Нужно что-то найти"
+    public float fadeDuration = 1.0f; // Длительность затемнения
+    public float darkPause = 0.5f;    // Пауза в полной темноте
 
     [Header("Состояния окружения")]
-    public GameObject state0Normal;
-    public GameObject state1Anomaly;
-    public GameObject state2Anomaly;
+    public GameObject state0Normal;   // Обычный вагон
+    public GameObject state1Anomaly;  // Вагон с первой аномалией
+    public GameObject state2Anomaly;  // Вагон со второй аномалией
+    public GameObject state3Anomaly;  // Вагон со второй аномалией
+    public GameObject chelik;         // NPC (пассажир)
+
+    [Header("Освещение и Звук")]
+    public List<Light> allLevelLights; // Все лампы вагона для затемнения
+    public AudioSource audioSource;    // Компонент для проигрывания звуков
 
     [Header("Логика")]
-    public int currentLevel = 0;
-    public bool anomalyFound = false;
-    private bool isTransitioning = false;
+    public int currentLevel = 0;      // 0 = норма, 1 = аномалия 1, 2 = аномалия 2
+    public bool anomalyFound = false; // Флаг: найдена ли аномалия в текущем вагоне
 
-    [Header("Челик")]
-    public GameObject chelik;
-    // Список для хранения имен найденных аномалий
-    private List<string> foundAnomaliesNames = new List<string>();
+    private bool isTransitioning = false;
+    private List<string> foundAnomaliesNames = new List<string>(); // История находок
+    private Coroutine hintCoroutine;
 
     private void Start()
     {
         ShowCurrentState();
-        chelik.SetActive(true);
         UpdateAnomalyUI();
+        if (hintObject != null) hintObject.SetActive(false); // Прячем подсказку
     }
 
-    // Теперь метод принимает имя аномалии
-    public void MarkAnomalyFound(string anomalyName)
+    // Вызывается при нажатии E на аномалии
+    public void MarkAnomalyFound(string anomalyName, GameObject anomalyObject, AudioClip sound)
     {
         if (!anomalyFound)
         {
             anomalyFound = true;
-            foundAnomaliesNames.Add(anomalyName); // Добавляем в список
-            UpdateAnomalyUI(); // Обновляем текст на экране
-            Debug.Log($"Аномалия '{anomalyName}' найдена!");
+            foundAnomaliesNames.Add(anomalyName); // Записываем в список
+            UpdateAnomalyUI();
+
+            // Убираем объект аномалии из мира
+            if (anomalyObject != null) anomalyObject.SetActive(false);
+
+            // Играем уникальный звук аномалии
+            if (audioSource != null && sound != null)
+            {
+                audioSource.PlayOneShot(sound);
+            }
+
+            Debug.Log($"Найдено: {anomalyName}");
         }
     }
 
-    // Обновление текста в UI
     private void UpdateAnomalyUI()
     {
         if (anomalyListText == null) return;
-
         anomalyListText.text = "<b>Найденные аномалии:</b>\n";
         foreach (string name in foundAnomaliesNames)
         {
@@ -66,11 +79,10 @@ public class LevelManager : MonoBehaviour
     {
         if (isTransitioning) return;
 
-        // ПРОВЕРКА: Если мы в вагоне с аномалией (1), но не нашли её
-        if (currentLevel == 1 && !anomalyFound)
+        // Если в вагоне есть аномалия, но игрок её не нашел — не пускаем
+        if ((currentLevel == 1 || currentLevel == 2) && !anomalyFound)
         {
-            Debug.Log("Дверь заперта! Вы не нашли аномалию в этом вагоне.");
-            // Здесь можно проиграть звук закрытой двери
+            ShowHint(); // Показываем надпись "Нужно что-то найти"
             return;
         }
 
@@ -80,36 +92,38 @@ public class LevelManager : MonoBehaviour
     private IEnumerator TransitionRoutine()
     {
         isTransitioning = true;
-        yield return StartCoroutine(Fade(1f));
+        yield return StartCoroutine(Fade(1f)); // Затемняем экран
 
+        // Уменьшаем яркость всех ламп на 25%
+        foreach (Light l in allLevelLights)
+        {
+            if (l != null) l.intensity *= 0.55f;
+        }
+
+        // Логика переключения между состояниями
         if (currentLevel == 0)
         {
-            // После первого обычного вагона идём к 1 аномалии
             currentLevel = 1;
         }
-        else if (currentLevel == 1)
+        else if (currentLevel == 1 && anomalyFound)
         {
-            if (anomalyFound)
-            {
-                Debug.Log("Первая аномалия найдена, переходим ко второй.");
-                anomalyFound = false;
-                currentLevel = 2;
-            }
+            anomalyFound = false;
+            currentLevel = 2;
         }
-        else if (currentLevel == 2)
+        else if (currentLevel == 2 && anomalyFound)
         {
-            if (anomalyFound)
-            {
-                Debug.Log("Вторая аномалия найдена. Тут можно делать победу или следующий уровень.");
-                anomalyFound = false;
-
-                // Пока оставим 2, если дальше уровня нет
-                currentLevel = 2;
-            }
+            anomalyFound = false;
+            currentLevel = 3; // Возвращаемся в чистый вагон (или делай победу)
+        }
+        else if (currentLevel == 3 && anomalyFound)
+        {
+            anomalyFound = false;
+            currentLevel = 0; // Возвращаемся в чистый вагон (или делай победу)
         }
 
         ShowCurrentState();
 
+        // Телепортация игрока
         CharacterController cc = player.GetComponent<CharacterController>();
         if (cc != null) cc.enabled = false;
         player.transform.position = startPoint.position;
@@ -117,38 +131,52 @@ public class LevelManager : MonoBehaviour
         if (cc != null) cc.enabled = true;
 
         yield return new WaitForSeconds(darkPause);
-        yield return StartCoroutine(Fade(0f));
+        yield return StartCoroutine(Fade(0f)); // Проявляем экран
         isTransitioning = false;
     }
 
     private void ShowCurrentState()
     {
+        // Выключаем всё
         if (state0Normal != null) state0Normal.SetActive(false);
         if (state1Anomaly != null) state1Anomaly.SetActive(false);
-        if (state2Anomaly != null)
-        {
-            state2Anomaly.SetActive(false);
-            chelik.SetActive(false);
-        }
+        if (state2Anomaly != null) state2Anomaly.SetActive(false);
+        if (state3Anomaly != null) state3Anomaly.SetActive(false);
+        if (chelik != null) chelik.SetActive(false);
 
+        // Включаем нужное состояние
         switch (currentLevel)
         {
             case 0:
                 if (state0Normal != null) state0Normal.SetActive(true);
                 break;
-
             case 1:
                 if (state1Anomaly != null)
                 {
-                    state1Anomaly.SetActive(true);
                     chelik.SetActive(true);
+                    state1Anomaly.SetActive(true);
                 }
                 break;
-
             case 2:
                 if (state2Anomaly != null) state2Anomaly.SetActive(true);
                 break;
+            case 3:
+                if (state3Anomaly != null) state3Anomaly.SetActive(true);
+                break;
         }
+    }
+
+    private void ShowHint()
+    {
+        if (hintCoroutine != null) StopCoroutine(hintCoroutine);
+        hintCoroutine = StartCoroutine(HintRoutine());
+    }
+
+    private IEnumerator HintRoutine()
+    {
+        hintObject.SetActive(true);
+        yield return new WaitForSeconds(2.5f);
+        hintObject.SetActive(false);
     }
 
     private IEnumerator Fade(float targetAlpha)

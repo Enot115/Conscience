@@ -1,22 +1,32 @@
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))] // Автоматически добавит AudioSource при назначении скрипта
 public class Anomaly : MonoBehaviour
 {
     public string anomalyName = "Странный предмет";
+    private AudioSource myAudio;
     private bool isFound = false;
+
+    void Start()
+    {
+        myAudio = GetComponent<AudioSource>();
+
+        // Настраиваем звук на бесконечный повтор
+        myAudio.loop = true;
+        myAudio.Play(); // Запускаем звук сразу при появлении вагона
+    }
 
     public void OnInteract()
     {
         if (!isFound)
         {
             isFound = true;
-            Debug.Log("Аномалия найдена: " + anomalyName);
 
-            // Сообщаем менеджеру, что мы нашли аномалию
-            Object.FindFirstObjectByType<LevelManager>().MarkAnomalyFound(anomalyName);
+            // Останавливаем звук перед тем, как объект исчезнет
+            if (myAudio != null) myAudio.Stop();
 
-            // Можно добавить эффект (например, звук или вспышку)
-            // gameObject.SetActive(false); // Или просто скрыть её
+            // Передаем данные в менеджер
+            Object.FindFirstObjectByType<LevelManager>().MarkAnomalyFound(anomalyName, this.gameObject, null);
         }
     }
 }
