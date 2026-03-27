@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abc00000000011604998693798060618
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352674
+  packageName: 'Apocalypse: Playground Environment'
+  packageVersion: 1.0
+  assetPath: Assets/PlaygroundApocalypse/Prefabs/fence_SM_Fence_a.prefab
+  uploadId: 858066

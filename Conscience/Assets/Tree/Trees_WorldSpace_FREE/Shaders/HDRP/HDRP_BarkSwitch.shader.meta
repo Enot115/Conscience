@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cffea9ab30c04a741a7e024d39eb6cce
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117088
+  packageName: World Space Trees (FREE) - Shader
+  packageVersion: 1.23
+  assetPath: Assets/Trees_WorldSpace_FREE/Shaders/HDRP/HDRP_BarkSwitch.shader
+  uploadId: 393715

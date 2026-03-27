@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 15276af68def8ee4290867b6fe106f51
+timeCreated: 1470306240
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117088
+  packageName: World Space Trees (FREE) - Shader
+  packageVersion: 1.23
+  assetPath: Assets/Trees_WorldSpace_FREE/Materials/HDRP/SkyMat_HDRP.mat
+  uploadId: 393715

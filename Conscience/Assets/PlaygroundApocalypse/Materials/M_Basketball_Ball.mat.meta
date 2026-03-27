@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abc00000000009344833345544098275
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352674
+  packageName: 'Apocalypse: Playground Environment'
+  packageVersion: 1.0
+  assetPath: Assets/PlaygroundApocalypse/Materials/M_Basketball_Ball.mat
+  uploadId: 858066
