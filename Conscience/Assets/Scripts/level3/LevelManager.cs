@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour
     public GameObject state0Normal;   // Обычный вагон
     public GameObject state1Anomaly;  // Вагон с первой аномалией
     public GameObject state2Anomaly;  // Вагон со второй аномалией
+    public GameObject state3Anomaly;  // Вагон со второй аномалией
     public GameObject chelik;         // NPC (пассажир)
 
     [Header("Освещение и Звук")]
@@ -112,6 +113,11 @@ public class LevelManager : MonoBehaviour
         else if (currentLevel == 2 && anomalyFound)
         {
             anomalyFound = false;
+            currentLevel = 3; // Возвращаемся в чистый вагон (или делай победу)
+        }
+        else if (currentLevel == 3 && anomalyFound)
+        {
+            anomalyFound = false;
             currentLevel = 0; // Возвращаемся в чистый вагон (или делай победу)
         }
 
@@ -135,6 +141,7 @@ public class LevelManager : MonoBehaviour
         if (state0Normal != null) state0Normal.SetActive(false);
         if (state1Anomaly != null) state1Anomaly.SetActive(false);
         if (state2Anomaly != null) state2Anomaly.SetActive(false);
+        if (state3Anomaly != null) state3Anomaly.SetActive(false);
         if (chelik != null) chelik.SetActive(false);
 
         // Включаем нужное состояние
@@ -144,11 +151,17 @@ public class LevelManager : MonoBehaviour
                 if (state0Normal != null) state0Normal.SetActive(true);
                 break;
             case 1:
-                if (state1Anomaly != null) state1Anomaly.SetActive(true);
-                if (chelik != null) chelik.SetActive(true);
+                if (state1Anomaly != null)
+                {
+                    chelik.SetActive(true);
+                    state1Anomaly.SetActive(true);
+                }
                 break;
             case 2:
                 if (state2Anomaly != null) state2Anomaly.SetActive(true);
+                break;
+            case 3:
+                if (state3Anomaly != null) state3Anomaly.SetActive(true);
                 break;
         }
     }
