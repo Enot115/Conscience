@@ -14050,7 +14050,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7ff6f166d66f092469d10ecad2cf70cb, type: 3}
   stepInterval: 0.5
   runningMultiplier: 0.7
-  minMoveSpeed: 1
 --- !u!82 &1270926396
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14061,8 +14060,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7ff6f166d66f092469d10ecad2cf70cb, type: 3}
+  m_Resource: {fileID: 8300000, guid: 7ff6f166d66f092469d10ecad2cf70cb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -14070,7 +14069,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

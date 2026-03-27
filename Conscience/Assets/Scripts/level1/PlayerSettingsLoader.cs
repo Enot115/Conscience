@@ -33,14 +33,17 @@ public class PlayerSettingsLoader : MonoBehaviour
 
     public void LoadAndApplySettings()
     {
-        Debug.Log("=== ЗАГРУЗКА НАСТРОЕК ===");
-
         float sensitivity = PlayerPrefs.GetFloat("Sensitivity", 1f);
         float volume = PlayerPrefs.GetFloat("Volume", 1f);
 
-        Debug.Log($"Загружено из PlayerPrefs - Sensitivity: {sensitivity}, Volume: {volume}");
+        // Добавьте проверку на NaN или некорректные значения
+        if (float.IsNaN(volume) || volume < 0 || volume > 1)
+        {
+            volume = 1f;
+            Debug.LogWarning("Некорректное значение громкости, установлено 1");
+        }
 
-        ApplySensitivity(sensitivity);
+        Debug.Log($"Загружена громкость: {volume}");
         ApplyVolume(volume);
     }
 
