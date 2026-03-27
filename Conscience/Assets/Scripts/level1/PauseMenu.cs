@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseGameMenu;
+    [SerializeField] private PauseMenuSettings pauseMenuSettings; // Ссылка на настройки
 
     private bool isPaused = false;
     private Image screamerImage;
@@ -78,6 +79,12 @@ public class PauseMenu : MonoBehaviour
         if (pauseGameMenu != null)
         {
             pauseGameMenu.SetActive(true);
+
+            // Убеждаемся, что показываем главное меню паузы, а не настройки
+            if (pauseMenuSettings != null)
+            {
+                pauseMenuSettings.CloseSettings();
+            }
         }
 
         Time.timeScale = 0f;
@@ -105,6 +112,32 @@ public class PauseMenu : MonoBehaviour
         SetCursorState(true);
 
         SceneManager.LoadScene("Main Menu");
+    }
+
+    // Метод для открытия настроек из паузы
+    public void OpenSettings()
+    {
+        Debug.Log("OpenSettings вызван");
+
+        if (pauseMenuSettings != null)
+        {
+            pauseMenuSettings.OpenSettings();
+        }
+        else
+        {
+            Debug.LogError("PauseMenuSettings не назначен! Пожалуйста, назначьте его в инспекторе.");
+        }
+    }
+
+    // Метод для закрытия настроек
+    public void CloseSettings()
+    {
+        Debug.Log("CloseSettings вызван");
+
+        if (pauseMenuSettings != null)
+        {
+            pauseMenuSettings.CloseSettings();
+        }
     }
 
     // Метод для управления курсором
