@@ -3573,6 +3573,72 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1770693329}
   m_SourcePrefab: {fileID: 100100000, guid: 0e925358a93fd454c8d77055e3bf63af, type: 3}
+--- !u!1 &156931875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 156931877}
+  - component: {fileID: 156931876}
+  m_Layer: 0
+  m_Name: Video
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!328 &156931876
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156931875}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: f20f037ac593d0e47a1d98e59b01ad7e, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 1497044189}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 3
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 2
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
+  m_Url: 
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 1
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!4 &156931877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156931875}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 92.99114, y: 11.822473, z: 125.32582}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 417065140}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &164455032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9287,6 +9353,38 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 831490457}
   m_SourcePrefab: {fileID: 100100000, guid: d39fe71d6daf3a8439b3c7ffc2b2bf93, type: 3}
+--- !u!1 &417065139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 417065140}
+  m_Layer: 0
+  m_Name: Anomaly1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &417065140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417065139}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -87.888145, y: -9.485473, z: -126.263824}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 156931877}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &417226505 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1774579907903896, guid: 302beb64ea3e494468adf014e82bbbca, type: 3}
@@ -25448,7 +25546,11 @@ MonoBehaviour:
   player: {fileID: 1503684105}
   fadeGroup: {fileID: 1394210056}
   fadeDuration: 1
+  darkPause: 0.5
+  state0Normal: {fileID: 0}
+  state1Anomaly: {fileID: 417065139}
   currentLevel: 0
+  anomalyFound: 0
 --- !u!4 &1208001098
 Transform:
   m_ObjectHideFlags: 0
@@ -32592,6 +32694,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39306eddde66833448c1282f63b1e82f, type: 3}
+--- !u!23 &1497044189 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7438103329508296462, guid: 9b866a148e07234459d0fe7acd5b0b99, type: 3}
+  m_PrefabInstance: {fileID: 854114667}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1499367723 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1807119167, guid: f176b97cab627de4c967c4b9c5a21d88, type: 3}
@@ -48509,3 +48616,4 @@ SceneRoots:
   - {fileID: 1672268736}
   - {fileID: 285975653}
   - {fileID: 1208001098}
+  - {fileID: 417065140}
