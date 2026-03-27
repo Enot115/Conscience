@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic; // Нужно для работы со списками
+using TMPro; // Нужно для текста
 
 public class LevelManager : MonoBehaviour
 {
@@ -10,86 +12,101 @@ public class LevelManager : MonoBehaviour
 
     [Header("Настройки интерфейса")]
     public CanvasGroup fadeGroup;
+    public TextMeshProUGUI anomalyListText; // Ссылка на твой текст сбоку
     public float fadeDuration = 1.0f;
     public float darkPause = 0.5f;
 
     [Header("Состояния окружения")]
-    public GameObject state0Normal;   // без аномалии
-    public GameObject state1Anomaly;  // с аномалией
+    public GameObject state0Normal;
+    public GameObject state1Anomaly;
 
     [Header("Логика")]
-    public int currentLevel = 0;      // 0 = без аномалии, 1 = с аномалией
-    public bool anomalyFound = false; // нашёл ли игрок аномалию
+    public int currentLevel = 0;
+    public bool anomalyFound = false;
     private bool isTransitioning = false;
+
+    // Список для хранения имен найденных аномалий
+    private List<string> foundAnomaliesNames = new List<string>();
 
     private void Start()
     {
         ShowCurrentState();
+        UpdateAnomalyUI();
     }
 
-    public void MarkAnomalyFound()
+    // Теперь метод принимает имя аномалии
+    public void MarkAnomalyFound(string anomalyName)
     {
-        anomalyFound = true;
-        Debug.Log("Аномалия найдена");
+        if (!anomalyFound)
+        {
+            anomalyFound = true;
+            foundAnomaliesNames.Add(anomalyName); // Добавляем в список
+            UpdateAnomalyUI(); // Обновляем текст на экране
+            Debug.Log($"Аномалия '{anomalyName}' найдена!");
+        }
+    }
+
+    // Обновление текста в UI
+    private void UpdateAnomalyUI()
+    {
+        if (anomalyListText == null) return;
+
+        anomalyListText.text = "<b>Найденные аномалии:</b>\n";
+        foreach (string name in foundAnomaliesNames)
+        {
+            anomalyListText.text += "- " + name + "\n";
+        }
     }
 
     public void GoToNextRoom()
     {
         if (isTransitioning) return;
+
+        // ПРОВЕРКА: Если мы в вагоне с аномалией (1), но не нашли её
+        if (currentLevel == 1 && !anomalyFound)
+        {
+            Debug.Log("Дверь заперта! Вы не нашли аномалию в этом вагоне.");
+            // Здесь можно проиграть звук закрытой двери
+            return;
+        }
+
         StartCoroutine(TransitionRoutine());
     }
 
     private IEnumerator TransitionRoutine()
     {
         isTransitioning = true;
-
-        // 1. Затемнение
         yield return StartCoroutine(Fade(1f));
 
-        // 2. Логика перехода
+        // Логика перехода
         if (currentLevel == 0)
         {
-            // Первый проход всегда переводит нас в вагон с аномалией
             currentLevel = 1;
         }
         else
         {
-            // Если мы уже на уровне с аномалией:
-            // - если нашли, тут потом можно будет вести дальше
-            // - если не нашли, остаёмся на 1
+            // Если нашли аномалию, сбрасываем флаг для следующего круга
             if (anomalyFound)
             {
-                Debug.Log("Аномалия была найдена. Тут потом можно вести на следующий уровень.");
+                Debug.Log("Переход в следующий вагон...");
                 anomalyFound = false;
 
-                // Пока для теста оставим снова 1,
-                // чтобы не ломать логику, пока у нас только один уровень с аномалией
-                currentLevel = 1;
-            }
-            else
-            {
-                Debug.Log("Аномалия не найдена. Повторяем тот же вагон.");
-                currentLevel = 1;
+                // Тут можно либо оставить 1 (для теста), либо сделать рандом:
+                // currentLevel = Random.Range(0, 2); 
             }
         }
 
         ShowCurrentState();
 
-        // 3. Телепорт игрока
+        // Телепорт
         CharacterController cc = player.GetComponent<CharacterController>();
         if (cc != null) cc.enabled = false;
-
         player.transform.position = startPoint.position;
         player.transform.rotation = startPoint.rotation;
-
         if (cc != null) cc.enabled = true;
 
-        // 4. Пауза в темноте
         yield return new WaitForSeconds(darkPause);
-
-        // 5. Осветление
         yield return StartCoroutine(Fade(0f));
-
         isTransitioning = false;
     }
 
@@ -102,12 +119,9 @@ public class LevelManager : MonoBehaviour
         {
             case 0:
                 if (state0Normal != null) state0Normal.SetActive(true);
-                Debug.Log("Включено состояние 0: без аномалии");
                 break;
-
             case 1:
                 if (state1Anomaly != null) state1Anomaly.SetActive(true);
-                Debug.Log("Включено состояние 1: с аномалией");
                 break;
         }
     }
@@ -116,14 +130,12 @@ public class LevelManager : MonoBehaviour
     {
         float startAlpha = fadeGroup.alpha;
         float time = 0f;
-
         while (time < fadeDuration)
         {
             time += Time.deltaTime;
             fadeGroup.alpha = Mathf.Lerp(startAlpha, targetAlpha, time / fadeDuration);
             yield return null;
         }
-
         fadeGroup.alpha = targetAlpha;
     }
 }
