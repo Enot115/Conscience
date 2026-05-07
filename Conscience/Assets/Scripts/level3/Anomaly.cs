@@ -28,7 +28,7 @@ public class Anomaly : MonoBehaviour
             if (myAudio != null) myAudio.Stop();
 
             // Передаем данные в менеджер
-            Object.FindFirstObjectByType<LevelManager>().MarkAnomalyFound(anomalyName, this.gameObject, null, manager.CommonUnit);
+            Object.FindFirstObjectByType<LevelManager>().MarkAnomalyFound(anomalyName, this.gameObject, null);
         }
     }
 }
