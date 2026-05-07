@@ -6,6 +6,7 @@ public class Anomaly : MonoBehaviour
     public string anomalyName = "Странный предмет";
     private AudioSource myAudio;
     private bool isFound = false;
+    private LevelManager manager;
 
     void Start()
     {
@@ -14,6 +15,7 @@ public class Anomaly : MonoBehaviour
         // Настраиваем звук на бесконечный повтор
         myAudio.loop = true;
         myAudio.Play(); // Запускаем звук сразу при появлении вагона
+        manager = Object.FindFirstObjectByType<LevelManager>();
     }
 
     public void OnInteract()
@@ -26,7 +28,7 @@ public class Anomaly : MonoBehaviour
             if (myAudio != null) myAudio.Stop();
 
             // Передаем данные в менеджер
-            Object.FindFirstObjectByType<LevelManager>().MarkAnomalyFound(anomalyName, this.gameObject, null);
+            Object.FindFirstObjectByType<LevelManager>().MarkAnomalyFound(anomalyName, this.gameObject, null, manager.CommonUnit);
         }
     }
 }
