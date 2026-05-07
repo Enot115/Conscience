@@ -6,8 +6,20 @@ public class LevelTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // »щем наш менеджер и запускаем переход
-            Object.FindFirstObjectByType<LevelManager>().GoToNextRoom();
+            LevelManager manager = Object.FindFirstObjectByType<LevelManager>();
+
+            if (manager != null)
+            {
+                // ≈сли мы в длинном поезде (уровень 4) Ч запускаем финальное видео!
+                if (manager.currentLevel == 4)
+                {
+                    manager.PlayEndGameVideo();
+                    return;
+                }
+
+                // ќбычный переход дл€ уровней 0, 1, 2, 3
+                manager.GoToNextRoom();
+            }
         }
     }
 }
