@@ -35,6 +35,7 @@ public class LevelManager : MonoBehaviour
     private bool isTransitioning = false;
     private List<string> foundAnomaliesNames = new List<string>(); // История находок
     private Coroutine hintCoroutine;
+    public GameObject CommonUnit;
 
     private void Start()
     {
@@ -44,7 +45,7 @@ public class LevelManager : MonoBehaviour
     }
 
     // Вызывается при нажатии E на аномалии
-    public void MarkAnomalyFound(string anomalyName, GameObject anomalyObject, AudioClip sound)
+    public void MarkAnomalyFound(string anomalyName, GameObject anomalyObject, AudioClip sound, GameObject commonUnit)
     {
         if (!anomalyFound)
         {
@@ -60,8 +61,14 @@ public class LevelManager : MonoBehaviour
             {
                 audioSource.PlayOneShot(sound);
             }
-
+            
             Debug.Log($"Найдено: {anomalyName}");
+
+        }
+
+        if (currentLevel == 3 && anomalyFound)
+        {
+            commonUnit.SetActive(true);
         }
     }
 
