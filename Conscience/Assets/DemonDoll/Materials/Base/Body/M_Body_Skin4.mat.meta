@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d661ca290bfc9d047b23251742db7419
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301030
+  packageName: Demon Doll G1
+  packageVersion: 1.0
+  assetPath: Assets/DemonDoll/Materials/Base/Body/M_Body_Skin4.mat
+  uploadId: 704262

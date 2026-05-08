@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5facc1beeb4c9214c91e4547070204db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301030
+  packageName: Demon Doll G1
+  packageVersion: 1.0
+  assetPath: Assets/DemonDoll/Materials/Base/M_Teeth.mat
+  uploadId: 704262
