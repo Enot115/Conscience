@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelTrigger : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class LevelTrigger : MonoBehaviour
                 // Если мы в длинном поезде (уровень 4) — запускаем финальное видео!
                 if (manager.currentLevel == 4)
                 {
-                    manager.PlayEndGameVideo();
+                    SceneManager.LoadScene("CreditsScene");
                     return;
                 }
 

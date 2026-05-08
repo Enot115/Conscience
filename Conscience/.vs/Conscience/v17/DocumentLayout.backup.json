@@ -3,11 +3,35 @@
   "WorkspaceRootPath": "C:\\PD\\Conscience\\Conscience\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\InteractableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\level2\\InteractableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level3\\leveltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level3\\leveltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\scripts\\level2\\repeatingsoundontouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\scripts\\creditscene\\creditsprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creditscene\\creditsprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|c:\\pd\\conscience\\conscience\\assets\\scripts\\level1\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level1\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenuSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\level1\\PauseMenuSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level3\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level3\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\level1\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level2\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level2\\repeatingsoundontouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\repeatingsoundontouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -33,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level3\\headlookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level3\\headlookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level3\\leveltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level3\\leveltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\assets\\scripts\\level3\\flatjumpscare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -120,10 +140,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\level3\\breatheMan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenuSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\level1\\PauseMenuSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\MainMenuSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\level1\\MainMenuSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -138,14 +154,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerInteracrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\level1\\PlayerInteracrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\level1\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\level1\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E159B17-5B9E-4633-6D05-7E8AC20BFB39}|Assembly-CSharp.csproj|C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\CounterManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -171,36 +179,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RepeatingSoundOnTouch.cs",
-              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\RepeatingSoundOnTouch.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\RepeatingSoundOnTouch.cs",
-              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\RepeatingSoundOnTouch.cs",
-              "RelativeToolTip": "Assets\\Scripts\\level2\\RepeatingSoundOnTouch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAFAAAAAAAAAA==",
+              "Title": "CreditsPrinter.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\CreditScene\\CreditsPrinter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CreditScene\\CreditsPrinter.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\CreditScene\\CreditsPrinter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CreditScene\\CreditsPrinter.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T09:44:09.866Z",
+              "WhenOpened": "2026-05-08T16:45:50.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerLook.cs",
-              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\PlayerLook.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\PlayerLook.cs",
-              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\PlayerLook.cs",
-              "RelativeToolTip": "Assets\\Scripts\\level2\\PlayerLook.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBwAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level3\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\level3\\LevelManager.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level3\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\level3\\LevelManager.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAmwAEBAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T08:47:02.121Z"
+              "WhenOpened": "2026-05-08T15:47:20.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LookAtSound.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\LookAtSound.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\LookAtSound.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\LookAtSound.cs",
+              "RelativeToolTip": "Assets\\Scripts\\level2\\LookAtSound.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T21:07:23.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScaryTrigger1.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\ScaryTrigger1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\ScaryTrigger1.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\ScaryTrigger1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\level2\\ScaryTrigger1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:32:51.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PauseMenu.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\level1\\PauseMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T15:40:14.676Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PauseMenuSettings.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenuSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PauseMenuSettings.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenuSettings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\level1\\PauseMenuSettings.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAmwIQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T22:02:55.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PlayerMovement.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\level1\\PlayerMovement.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T20:59:10.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PictureTrigger.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\PictureTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\PictureTrigger.cs",
@@ -212,29 +279,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LookAtSound.cs",
-              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\LookAtSound.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\LookAtSound.cs",
-              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\LookAtSound.cs",
-              "RelativeToolTip": "Assets\\Scripts\\level2\\LookAtSound.cs",
+              "DocumentIndex": 8,
+              "Title": "PlayerLook.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\PlayerLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\PlayerLook.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\PlayerLook.cs",
+              "RelativeToolTip": "Assets\\Scripts\\level2\\PlayerLook.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T21:07:23.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ScaryTrigger1.cs",
-              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\ScaryTrigger1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\ScaryTrigger1.cs",
-              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\ScaryTrigger1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\level2\\ScaryTrigger1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T17:32:51.009Z"
+              "WhenOpened": "2026-05-08T08:47:02.121Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "RepeatingSoundOnTouch.cs",
+              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\RepeatingSoundOnTouch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\RepeatingSoundOnTouch.cs",
+              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\RepeatingSoundOnTouch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\level2\\RepeatingSoundOnTouch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T09:44:09.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "HeadLookAt.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level3\\HeadLookAt.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level3\\HeadLookAt.cs",
@@ -246,19 +315,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "LevelTrigger.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level3\\LevelTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level3\\LevelTrigger.cs",
               "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level3\\LevelTrigger.cs",
               "RelativeToolTip": "Assets\\Scripts\\level3\\LevelTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T13:38:10.263Z"
+              "WhenOpened": "2026-05-07T13:38:10.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "FlatJumpscare.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level3\\FlatJumpscare.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level3\\FlatJumpscare.cs",
@@ -270,19 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "PauseMenuSettings.cs",
-              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenuSettings.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PauseMenuSettings.cs",
-              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenuSettings.cs",
-              "RelativeToolTip": "Assets\\Scripts\\level1\\PauseMenuSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T22:02:55.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "MainMenuSettings.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\MainMenuSettings.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\MainMenuSettings.cs",
@@ -294,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "breatheMan.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level3\\breatheMan.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level3\\breatheMan.cs",
@@ -306,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "TrainFlow.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level3\\TrainFlow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level3\\TrainFlow.cs",
@@ -318,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "TVInteract.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\TVInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\TVInteract.cs",
@@ -330,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "PinCodeTrigger.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeTrigger.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeTrigger.cs",
@@ -342,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "PinCodeButton.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeButton.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeButton.cs",
@@ -354,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "PinCodeSystem.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeSystem.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PinCodeSystem.cs",
@@ -365,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "PlayerInteracrtion.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerInteracrtion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PlayerInteracrtion.cs",
@@ -377,31 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PauseMenu.cs",
-              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\level1\\PauseMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T15:40:14.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\level1\\PlayerMovement.cs",
-              "ToolTip": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level1\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\level1\\PlayerMovement.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAuwHQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T20:59:10.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
@@ -413,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "InteractableObject.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\InteractableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\InteractableObject.cs",
@@ -421,12 +455,11 @@
               "RelativeToolTip": "Assets\\Scripts\\level2\\InteractableObject.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAgwBUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:43:35.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T16:43:35.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "CounterManager.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\CounterManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\CounterManager.cs",
@@ -438,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "PlayerInteraction2.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\PlayerInteraction2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\PlayerInteraction2.cs",
@@ -450,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "NextLevel.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\NextLevel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\NextLevel.cs",
@@ -462,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "TerrainLit.shader",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
@@ -474,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "MenuMusic.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MenuMusic.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MenuMusic.cs",
@@ -486,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "LoadScreen.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\LoadScreen.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\LoadScreen.cs",
@@ -498,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PauseMenu.cs",
@@ -510,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "ScreamerTrigger.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\ScreamerTrigger.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\ScreamerTrigger.cs",
@@ -522,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "MainMenuSettings.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Settings\\MainMenuSettings.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Settings\\MainMenuSettings.cs",
@@ -533,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "MouseTester.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MouseTester.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\MouseTester.cs",
@@ -544,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerMovement.cs",
@@ -556,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "PlayerSettingsLoader.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerSettingsLoader.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerSettingsLoader.cs",
@@ -568,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "FirstPersonMovement.cs",
               "DocumentMoniker": "C:\\PD\\Conscience\\Conscience\\Assets\\Scripts\\level2\\FirstPersonMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\level2\\FirstPersonMovement.cs",
@@ -580,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "CameraShake.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CameraShake.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CameraShake.cs",
@@ -592,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "AnomalyFinder.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyFinder.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyFinder.cs",
@@ -604,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "CrosshairGUI.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CrosshairGUI.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\CrosshairGUI.cs",
@@ -616,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\PauseMenu.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\PauseMenu.cs",
@@ -628,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\MainMenu.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\MainMenu.cs",
@@ -640,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "CameraBob.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\CameraBob.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\CameraBob.cs",
@@ -652,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "FocusDistance.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\FocusDistance.cs",
@@ -664,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "PlayerFootsteps.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\PlayerFootsteps.cs",
@@ -676,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "AnomalyWhiteNoise.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\AnomalyWhiteNoise.cs",
@@ -688,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "RandomDrip.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\RandomDrip.cs",
@@ -700,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "DoorAnimatied.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\DoorAnimatied.cs",
@@ -712,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "Doors.cs",
               "DocumentMoniker": "C:\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\\u0434\u0430\u043D\u0438\u043B\\Documents\\GitHub\\Conscience\\Conscience\\Assets\\Scripts\\Doors.cs",
