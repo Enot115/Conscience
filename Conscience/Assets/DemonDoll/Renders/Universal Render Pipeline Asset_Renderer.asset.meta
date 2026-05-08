@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 182039d1be1977e469cc6befa63a7251
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301030
+  packageName: Demon Doll G1
+  packageVersion: 1.0
+  assetPath: Assets/DemonDoll/Renders/Universal Render Pipeline Asset_Renderer.asset
+  uploadId: 704262

@@ -41,6 +41,14 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        CharacterController cc = GetComponent<CharacterController>();
+
+        // Если контроллер выключен - просто прерываем выполнение Update в этом кадре
+        if (cc != null && !cc.enabled)
+        {
+            return;
+        }
+
         // 1. Проверка паузы
         PauseMenu pauseMenu = FindObjectOfType<PauseMenu>();
         if (pauseMenu != null && pauseMenu.IsPaused) return;
