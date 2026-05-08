@@ -168,14 +168,14 @@ public class LevelManager : MonoBehaviour
         yield return new WaitForSeconds(darkPause);
 
         // Возвращаем свет лампам в норму, чтобы игра не ушла во мрак
-        for (int i = 0; i < allLevelLights.Count; i++)
+        /*for (int i = 0; i < allLevelLights.Count; i++)
         {
             if (allLevelLights[i] != null)
             {
                 allLevelLights[i].intensity = initialIntensities[i];
             }
         }
-
+        */
         yield return StartCoroutine(Fade(0f)); // Экран светлеет
         isTransitioning = false;
     }
@@ -255,6 +255,9 @@ public class LevelManager : MonoBehaviour
     // Вызывается триггером в конце 4 уровня
     public void PlayEndGameVideo()
     {
+        PlayerMovement movementScript = player.GetComponent<PlayerMovement>();
+        if (movementScript != null) movementScript.enabled = false;
+
         // 1. Отключаем управление игроку, чтобы он не ходил во время видео
         CharacterController cc = player.GetComponent<CharacterController>();
         if (cc != null) cc.enabled = false;
